@@ -34,8 +34,4 @@ public class useMySQL {
             e.printStackTrace();
         }
     }
-
-    public static void main(String[] args) {
-        insertarRegistro("15/05/2020", "OBL-RIESGO", 1276987, -10.20, -13023267);
-    }
 }
