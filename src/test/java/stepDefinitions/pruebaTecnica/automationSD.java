@@ -31,8 +31,8 @@ public class automationSD {
     @Entonces("{actor} calculará el valor total")
     public void actor_calcular_total(Actor actor) {
         if  (p.getPORTAFOLIO().equals("OBL-RIESGO")) {
-            resultado = (p.getNOMINAL() * p.getPRECIO()) +200;
-            System.out.println("Calculando total: ("+ p.getNOMINAL() +" * "+ p.getPRECIO() +") + 200 = "+ resultado );
+            resultado = (p.getNOMINAL() * p.getPRECIO()) +2000;
+            System.out.println("Calculando total: ("+ p.getNOMINAL() +" * "+ p.getPRECIO() +") + 2000 = "+ resultado );
         } else {
             resultado = p.getNOMINAL() * p.getPRECIO();
             System.out.println("Calculando total: "+ p.getNOMINAL() +" * "+ p.getPRECIO() +" = "+ resultado );
